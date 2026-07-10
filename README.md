@@ -10,6 +10,8 @@ This project is organised into several Java packages to separate the responsibil
 
 Run Project
 - Run the Main.java
+- Username: admin
+- Password: admin123
 
 Class Relationships
 - The StudentSubject class connects one Student object with one Subject object and stores the marks obtained for that subject.
@@ -19,3 +21,9 @@ Class Relationships
   - ArrayList<Subject> subjects;
   - ArrayList<StudentSubject> studentSubjects;
 - The same GradeManager object is passed to the GUI panels so that all panels access the same student, subject, and result records.
+
+Future Improvements
+- The current system uses Java Swing, ArrayList, and CSV files to manage student, subject, and result data. Several improvements could be added in future versions:
+  - Replace CSV file storage with a MySQL or SQLite database.
+  - Add secure user authentication with hashed passwords.
+  - Support multiple user roles, such as administrator, lecturer, and student.
